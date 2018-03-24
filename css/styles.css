@@ -1,0 +1,163 @@
+@font-face {
+	font-family: HelveticaNeueCondensedBold;
+	src: url('../fonts/HelveticaNeueCondensedBold.eot');
+	src: url('../fonts/HelveticaNeueCondensedBold.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCondensedBold.woff') format('woff'), url('../fonts/HelveticaNeueCondensedBold.ttf') format('truetype'), url('../fonts/HelveticaNeueCondensedBold.svg#HelveticaNeueCondensedBold') format('svg');
+}
+
+body {
+	background: url(../img/hero-nash.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1,h2{
+	font-family: HelveticaNeueCondensedBold;
+	color:white;
+	text-align: center;
+	z-index: 100;
+}
+
+h1{
+	margin-top: 10vh;
+	font-size: 7vw;
+}
+h2{
+	font-size: 4vw;
+}
+#clockdiv{
+	font-family: HelveticaNeueCondensedBold;
+	color: #fff;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 100;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	background: rgba(51, 204, 255,0.5);
+	border: 1px solid #3cf;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	background: #3cf;
+	display: inline-block;
+	border: 1px solid #3cf;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+#buttonContainer{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	z-index: 100;
+}
+
+#buttonContainer button, #registerButton, #registerButton2{
+	text-align: center;
+	display: inline-block;
+	width:275px;
+	height:75px;
+	margin-right: 4px;
+	margin-right: 4px;
+	background-color: #3cf;
+	border:1px solid #3cf;
+	color:white;
+	transition: all 0.2s;
+	font-size: 30px;
+	font-family: HelveticaNeueCondensedBold;
+}
+
+#buttonContainer button:hover, #registerButton:hover, #registerButton2:hover{
+	background-color: rgba(51, 204, 255,0.5);
+	cursor: pointer;
+}
+
+#registerButton, #registerButton2{
+	margin-left:auto;
+	margin-right: auto;
+	width: 350px;
+}
+
+
+#ytplayer{
+	visibility: hidden;
+	opacity: 0;
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 50;
+}
+
+@media (max-width: 505px){
+	#buttonContainer button:first-child{
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 414px){
+	h1{
+		font-size: 12vw;8
+	}
+	h2{
+		font-size: 9vw;
+	}
+}
+
+@media (max-width: 375px){
+	h1{
+		font-size: 11vw;
+	}
+	h2{
+		font-size: 8vw;
+	}
+}
+
+
+@media (max-width: 370px){
+	#clockdiv > div{
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	h1{
+		font-size: 12vw;
+	}
+	h2{
+		font-size: 10vw;
+	}
+}
+h3{
+	color:white;
+	font-size: 40px;
+	font-family: HelveticaNeueCondensedBold;
+}
+
+.row{
+	min-height: 75px;
+	background-color: rgba(0,0,0,0.4);
+	max-width: 800px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h4{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	margin-top: 20px;
+	font-family: HelveticaNeueCondensedBold;
+}

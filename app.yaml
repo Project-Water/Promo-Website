@@ -1,0 +1,43 @@
+application: na-dodgeball-promo
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+
+- url: /css
+  static_dir: css
+
+- url: /img
+  static_dir: img
+
+- url: /js
+  static_dir: js
+
+- url: /fonts
+  static_dir: fonts
+
+- url: /pdf
+  static_dir: pdf
+
+- url: /pay
+  script: pay.php
+
+- url: /shirts
+  script: shirts.php
+
+- url: /nashspectators
+  script: nashspectators.php
+
+- url: /schedule
+  script: schedule.php
+
+- url: /ap
+  script: ap.php
+
+- url: /AP
+  script: ap.php
+
+- url: .*
+  script: main.php
