@@ -93,7 +93,7 @@ else if(strpos($host, 'nai') !== false)
     <div id="buttonContainer">
       <button onclick="playVideo()">WATCH VIDEO</button>
       <a href="https://naprojectwater.com/events"><button>MAIN SITE</button></a>
-      <a href="/schedule"><button>SCHEDULE</button></a>
+      <!--<a href="/schedule"><button>SCHEDULE</button></a>-->
     </div>
     <!--
     <br>
