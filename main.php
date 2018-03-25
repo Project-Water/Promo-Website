@@ -57,7 +57,8 @@ else if(strpos($host, 'nai') !== false)
     <h1><?php echo $school ?> DODGEBALL</h1>
 
     <br>
-    <h2 id="registerLabel">SHIRT SELECTION OPENS IN</h2>
+<!--    
+<h2 id="registerLabel">SHIRT SELECTION OPENS IN</h2>
     <?php
       if(strcmp($school, 'NASH') == 0){
         echo '<a href="https://www.eventbrite.com/e/2018-nash-dodgeball-shirt-selection-tickets-43577595762" target="_blank"><button id="registerButton" style="display: none;">SELECT SHIRT COLOR</button></a>';
@@ -70,6 +71,7 @@ else if(strpos($host, 'nai') !== false)
       }
 
     ?>
+-->
 
     <div id="clockdiv">
       <div>
@@ -93,7 +95,7 @@ else if(strpos($host, 'nai') !== false)
     <div id="buttonContainer">
       <button onclick="playVideo()">WATCH VIDEO</button>
       <a href="https://naprojectwater.com/events"><button>MAIN SITE</button></a>
-      <!--<a href="/schedule"><button>SCHEDULE</button></a>-->
+      <a href="/schedule"><button>SCHEDULE</button></a>
     </div>
     <!--
     <br>
